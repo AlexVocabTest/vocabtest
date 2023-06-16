@@ -1,0 +1,64 @@
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-family: Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    font-family: Arial;
+    font-size: larger;
+    width: 50%;
+    border-width: 2px;
+    border-color: #ccc;
+    border-style: solid;
+    padding:20px;
+}
+
+button.GeneratedButton {
+    font-family: Arial;
+    font-size: large;
+}
+
+input.GeneratedInput {
+    font-family: Arial;
+    font-size: larger;
+    width: 200px;
+    text-align: right;
+}
+
+select.GeneratedSelect {
+    font-family: Arial;
+    font-size: larger;
+    width: 100px;
+    text-align: right;
+}
+
+table.GeneratedTable {
+    width: 100%;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    font-family: Arial;
+}
+                
+table.GeneratedTable td, table.GeneratedTable th {
+    border-width: 2px;
+    border-color: #ffcc00;
+    border-style: solid;
+    padding: 8px;
+    width: 50%;
+}
+                
+table.GeneratedTable thead {
+    background-color: #ffcc00;
+    font-size: large;
+}
